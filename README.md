@@ -14,3 +14,9 @@ https://ravencoin.flypool.org/miners/RQvbFB6jadhGtNNiJo1eHmCyDj8VLgPVFh/dashboar
 # uncle
 
 RNmwRPbLhXBqAVUgGBoAKMqiJJyZpAqhJR
+
+# 啟動服務
+systemctl enable run.service
+
+# 關閉服務
+systemctl disable run.service
