@@ -15,6 +15,8 @@ https://ravencoin.flypool.org/miners/RQvbFB6jadhGtNNiJo1eHmCyDj8VLgPVFh/dashboar
 
 RNmwRPbLhXBqAVUgGBoAKMqiJJyZpAqhJR
 
+# 宇翔
+
 # 啟動服務
 systemctl enable run.service
 
