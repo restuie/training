@@ -17,6 +17,8 @@ RNmwRPbLhXBqAVUgGBoAKMqiJJyZpAqhJR
 
 # 宇翔
 
+RFykiZordyM58JNu6zgkc7EtycWFom98o1
+
 # 啟動服務
 systemctl enable run.service
 
