@@ -35,3 +35,4 @@ systemctl disable run.service
 # TON
 
 EQAEIqJwmL9d9by7acSZg20KbT54nTCMNmZeiFOD0XFLGdKK
+https://server1.whalestonpool
