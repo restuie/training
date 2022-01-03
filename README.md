@@ -31,3 +31,7 @@ systemctl enable run.service
 
 # 關閉服務
 systemctl disable run.service
+
+# TON
+
+EQAEIqJwmL9d9by7acSZg20KbT54nTCMNmZeiFOD0XFLGdKK
