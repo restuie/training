@@ -40,8 +40,13 @@ https://server1.whalestonpool
 # 關閉更新
 
 ///////////////////////////////////////////////
+
 sc stop wuauserv
+
 sc stop BITS
+
 sc config wuauserv start= disabled
+
 sc config BITS start= disabled
+
 ///////////////////////////////////////////////
