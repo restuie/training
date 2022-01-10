@@ -9,7 +9,12 @@ sudo tar zxvf t-rex-0.24.8-linux.tar.gz -C /usr/local/traing
 
 /usr/local/etc/bin/traing -a kawpow -o stratum+ssl://stratum-ravencoin.flypool.org:3443 -u RQvbFB6jadhGtNNiJo1eHmCyDj8VLgPVFh.rig -p x
 
+# minerpool windows
+t-rex.exe -a kawpow -o stratum+tcp://rvn-eu.minerpool.org:16059 -u RQvbFB6jadhGtNNiJo1eHmCyDj8VLgPVFh.3062 -p x
 
+# flypool windows 
+
+t-rex.exe -a kawpow -o stratum+ssl://stratum-ravencoin.flypool.org:3443 -u RQvbFB6jadhGtNNiJo1eHmCyDj8VLgPVFh.rig -p x
 
 # 麥香
 
