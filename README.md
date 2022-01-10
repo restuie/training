@@ -4,6 +4,8 @@ https://hackmd.io/4VrICowWSMiFmZfHfLORQA
 
 https://minerstat.com/coin/RVN/profitability?lang=zh
 
+https://rvn.minerpool.org/
+
 sudo tar zxvf t-rex-0.24.8-linux.tar.gz -C /usr/local/traing
 
 
