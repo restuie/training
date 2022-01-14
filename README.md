@@ -18,6 +18,10 @@ t-rex.exe -a kawpow -o stratum+tcp://rvn-eu.minerpool.org:16059 -u RQvbFB6jadhGt
 
 t-rex.exe -a kawpow -o stratum+ssl://stratum-ravencoin.flypool.org:3443 -u RQvbFB6jadhGtNNiJo1eHmCyDj8VLgPVFh.rig -p x
 
+# antpool windows
+
+t-rex.exe -a kawpow -o stratum+tcp://rvn.antpool.com:9003 -u RQvbFB6jadhGtNNiJo1eHmCyDj8VLgPVFh.3080ti -p x
+
 # 麥香
 
 RQvbFB6jadhGtNNiJo1eHmCyDj8VLgPVFh
