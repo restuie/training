@@ -14,6 +14,14 @@ sudo tar zxvf t-rex-0.24.8-linux.tar.gz -C /usr/local/traing
 # minerpool rvn windows
 t-rex.exe -a kawpow -o stratum+tcp://rvn-eu.minerpool.org:16059 -u RQvbFB6jadhGtNNiJo1eHmCyDj8VLgPVFh.3062 -p x
 
+
+# flypool rvn windows 
+
+t-rex.exe -a kawpow -o stratum+ssl://stratum-ravencoin.flypool.org:3443 -u RQvbFB6jadhGtNNiJo1eHmCyDj8VLgPVFh.rig -p x
+
+# 2miner eth linux
+/usr/local/etc/bin/traing -a ethash -o stratum+tcp://eth.2miners.com:2020 -u bc1qgjuyswqqxpf9lphyrd7t3usnrh27drqmnte37r -w A8 -p x
+
 # eth wallet
 0x5b66d5E90247075cABD1D0b5Ca67d5055389cdBc
 
@@ -21,19 +29,9 @@ t-rex.exe -a kawpow -o stratum+tcp://rvn-eu.minerpool.org:16059 -u RQvbFB6jadhGt
 
 bc1qgjuyswqqxpf9lphyrd7t3usnrh27drqmnte37r
 
-# flypool rvn windows 
-
-t-rex.exe -a kawpow -o stratum+ssl://stratum-ravencoin.flypool.org:3443 -u RQvbFB6jadhGtNNiJo1eHmCyDj8VLgPVFh.rig -p x
-
-# antpool windows
-
-t-rex.exe -a kawpow -o stratum+tcp://rvn.antpool.com:9003 -u RQvbFB6jadhGtNNiJo1eHmCyDj8VLgPVFh.3080ti -p x
-
-# 麥香
+# rvn wallet
 
 RQvbFB6jadhGtNNiJo1eHmCyDj8VLgPVFh
-
-https://ravencoin.flypool.org/miners/RQvbFB6jadhGtNNiJo1eHmCyDj8VLgPVFh/dashboard
 
 
 # uncle
