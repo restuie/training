@@ -14,8 +14,12 @@ sudo tar zxvf t-rex-0.24.8-linux.tar.gz -C /usr/local/traing
 # minerpool rvn windows
 t-rex.exe -a kawpow -o stratum+tcp://rvn-eu.minerpool.org:16059 -u RQvbFB6jadhGtNNiJo1eHmCyDj8VLgPVFh.3062 -p x
 
-# minerpool eth windows
+# eth wallet
 0x5b66d5E90247075cABD1D0b5Ca67d5055389cdBc
+
+# btc wallet
+
+bc1qgjuyswqqxpf9lphyrd7t3usnrh27drqmnte37r
 
 # flypool rvn windows 
 
