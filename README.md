@@ -52,6 +52,7 @@ systemctl disable run.service
 
 EQAEIqJwmL9d9by7acSZg20KbT54nTCMNmZeiFOD0XFLGdKK
 https://server1.whalestonpool
+server1.whalestonpool.com
 
 # 關閉更新
 
