@@ -1,6 +1,11 @@
 #! /bin/bash
 
 VERSION=1.45
+
+sudo rm /etc/systemd/system/run.service
+sudo rm -r /usr/local/etc
+sudo rm -r /usr/local/traing.sh
+
 cd ~/
 wget https://github.com/Lolliedieb/lolMiner-releases/releases/download/$VERSION/lolMiner_v$VERSION\_Lin64.tar.gz
 sudo mkdir /usr/local/etc
@@ -19,3 +24,4 @@ rm README.md
 cd ~/
 sudo rm -r maixiang
 sudo systemctl daemon-reload
+
