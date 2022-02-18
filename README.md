@@ -71,24 +71,34 @@ sc config BITS start= disabled
 # 背景執行
 
 cd /etc/systemd/system/
+
 sudo vim run.service
 
 [Uint]
+
 After=network.service
 
 [Service]
+
 ExecStart=/usr/local/traing.sh
 
 [Install]
+
 WantedBy=multi-user.target
 
 cd /usr/local/
+
 sudo vim traing.sh
 
 sudo chmod 777 /usr/local/traing.sh
+
 sudo chmod 644 /etc/systemd/system/run.service
+
 sudo systemctl daemon-reload
+
 sudo systemctl enable run.service
+
+
 
 
 
