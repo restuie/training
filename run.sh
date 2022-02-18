@@ -9,7 +9,7 @@ sudo mv /usr/local/etc/$VERSION/lolMiner /usr/local/etc/bin
 sudo rm -r /usr/local/etc/$VERSION
 rm lolMiner_v$VERSION\_Lin64.tar.gz
 
-git clone https://github.com/restuie/maixiang.git
+#git clone https://github.com/restuie/maixiang.git
 cd maixiang
 sudo chmod 777 traing.sh
 sudo chmod 644 run.service
