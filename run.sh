@@ -1,7 +1,7 @@
 #! /bin/bash
 
 VERSION=1.45
-
+cd ~/
 wget https://github.com/Lolliedieb/lolMiner-releases/releases/download/$VERSION/lolMiner_v$VERSION\_Lin64.tar.gz
 sudo mkdir /usr/local/etc
 sudo tar zxvf lolMiner_v$VERSION\_Lin64.tar.gz -C /usr/local/etc
