@@ -68,43 +68,6 @@ sc config BITS start= disabled
 
 ///////////////////////////////////////////////
 
-# 背景執行
-
-wget https://github.com/Lolliedieb/lolMiner-releases/releases/download/1.45/lolMiner_v1.45_Lin64.tar.gz
-
-sudo tar zxvf lolMiner_v1.45_Lin64.tar.gz -C /usr/local/etc;cd /usr/local/etc
-
-sudo cp 1.45/lolMiner ./train
-
-sudo rm -r 1.45
-
-sudo vim /etc/systemd/system/run.service
-
-[Uint]
-
-After=network.service
-
-[Service]
-
-ExecStart=/usr/local/traing.sh
-
-[Install]
-
-WantedBy=multi-user.target
-
-sudo vim /usr/local/traing.sh
-
-sudo chmod 777 /usr/local/traing.sh
-
-sudo chmod 644 /etc/systemd/system/run.service
-
-
-
-
-
-sudo systemctl daemon-reload
-
-sudo systemctl enable run.service
 
 
 
