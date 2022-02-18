@@ -1,23 +1,9 @@
 # training
 
-https://hackmd.io/4VrICowWSMiFmZfHfLORQA
-
 https://minerstat.com/coin/RVN/profitability?lang=zh
 
-https://rvn.minerpool.org/
-
-sudo tar zxvf t-rex-0.24.8-linux.tar.gz -C /usr/local/traing
-
-
-/usr/local/etc/bin/traing -a kawpow -o stratum+ssl://stratum-ravencoin.flypool.org:3443 -u RQvbFB6jadhGtNNiJo1eHmCyDj8VLgPVFh.rig -p x
-
 # minerpool rvn windows
-t-rex.exe -a kawpow -o stratum+tcp://rvn-eu.minerpool.org:16059 -u RQvbFB6jadhGtNNiJo1eHmCyDj8VLgPVFh.3062 -p x
-
-
-# flypool rvn windows 
-
-t-rex.exe -a kawpow -o stratum+ssl://stratum-ravencoin.flypool.org:3443 -u RQvbFB6jadhGtNNiJo1eHmCyDj8VLgPVFh.rig -p x
+stratum+tcp://rvn-eu.minerpool.org:16059 
 
 # 2miner eth linux
 /usr/local/etc/bin/traing -a ethash -o stratum+tcp://eth.2miners.com:2020 -u bc1qgjuyswqqxpf9lphyrd7t3usnrh27drqmnte37r -w A8 -p x
