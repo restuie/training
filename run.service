@@ -1,4 +1,4 @@
-[Uint]
+[Unit]
 After=network.service
 
 [Service]
