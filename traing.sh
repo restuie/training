@@ -4,7 +4,7 @@ ETHPOOL=asia-eth.2miners.com:2020
 ETHWALLET=bc1qgjuyswqqxpf9lphyrd7t3usnrh27drqmnte37r
 ETHWORKER=lolMinerWorker
 
-TONPOOL=https://ton.hashrate.to:4002
+TONPOOL=http://server1.whalestonpool.com/
 TONWALLET=EQAEIqJwmL9d9by7acSZg20KbT54nTCMNmZeiFOD0XFLGdKK
 
 #################################
