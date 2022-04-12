@@ -55,7 +55,7 @@ sc config BITS start= disabled
 ///////////////////////////////////////////////
 
 
-
+asia1.stratum.ton-pool.com
 
 
 
