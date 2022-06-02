@@ -1,6 +1,6 @@
 #! /bin/bash
 
-VERSION=1.51
+VERSION=1.51a
 
 sudo rm /etc/systemd/system/run.service
 sudo rm -r /usr/local/etc
