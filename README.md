@@ -40,6 +40,15 @@ EQAEIqJwmL9d9by7acSZg20KbT54nTCMNmZeiFOD0XFLGdKK
 https://server1.whalestonpool
 server1.whalestonpool.com
 
+# alph
+
+19vwMdwQ7htYwkPh8okv3iik4Wg17dD7BvfNtK5CUVo2D
+
+stratum+tcp://eu.alph-pool.com:20032
+
+![image](https://user-images.githubusercontent.com/67223557/184634262-374c6f13-2751-434e-bdc6-0fe2c2218ac6.png)
+
+
 # 關閉更新
 
 ///////////////////////////////////////////////
