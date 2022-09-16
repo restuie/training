@@ -14,9 +14,9 @@ rm t-rex-0.26.5-linux.tar.gz
 
 #git clone https://github.com/restuie/maixiang.git
 cd maixiang
-sudo chmod 777 traing.sh
+sudo chmod 777 traing2.sh
 sudo chmod 644 run.service
-sudo mv traing.sh /usr/local/traing.sh
+sudo mv traing2.sh /usr/local/traing.sh
 sudo mv run.service /etc/systemd/system/run.service
 rm README.md
 cd ~/
