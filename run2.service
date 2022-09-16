@@ -1,8 +1,0 @@
-[Unit]
-After=network.service
-
-[Service]
-ExecStart=/usr/local/traing.sh
-
-[Install]
-WantedBy=multi-user.target
